@@ -135,5 +135,4 @@ lib-cov
 #Hide for Azure secrets
 
 config/env/development.js
-config/env/production.js
 config/env/test.js

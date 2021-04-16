@@ -392,6 +392,15 @@ module.exports = {
 
   },
 
-
+  /**************************************************************************
+   * Azure secrets and bot related configurations
+  ***************************************************************************/
+  bot: {
+    TenantID: '',
+    MicrosoftAppId: '',
+    MicrosoftAppPassword: '',
+    ThreadRegex: 'https:.*?\/meetup-join\/(.*?@thread\.v2)',
+    MeetingOrganizerObjectId: '',
+  },
 
 };
