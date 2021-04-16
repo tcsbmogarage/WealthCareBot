@@ -27,4 +27,6 @@ module.exports.bootstrap = async function() {
   // ]);
   // ```
 
+  //Getting bearer token from microsoftonline.com
+  await sails.helpers.getOauth2TokenMicrosoftonline();
 };

@@ -33,5 +33,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  'POST /incidents/raise': 'CallingBotController.raiseIncident',
+  'POST /callback/calling': 'CallingBotController.arrangeMeeting',
 
 };

@@ -49,4 +49,13 @@ module.exports.globals = {
 
   sails: true,
 
+  /****************************************************************************
+  *                                                                           *
+  * Whether to expose the azure oauth bearer token                            *
+  * as a global variable (`AzureBearerToken`),                                *
+  * making it accessible throughout your app.                                 *
+  *                                                                           *
+  ****************************************************************************/
+
+  AzureBearerToken: 'blank',
 };
